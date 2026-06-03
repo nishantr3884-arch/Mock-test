@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #e53935; /* UP Police/Government vibe red */
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+h1 { margin: 0; font-size: 24px; }
+#timer { font-weight: bold; font-size: 18px; }
+
+#quiz-container, #result-container {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.option-btn {
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+.option-btn:hover:not([disabled]) {
+    background: #e2e6ea;
+}
+.option-btn:disabled {
+    background: #e9ecef;
+    cursor: not-allowed;
+}
+#next-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
