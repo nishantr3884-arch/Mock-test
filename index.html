@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarkari Mock Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sarkari Mock Test</h1>
+        <div id="timer">Time Left: <span id="time">01:00</span></div>
+    </header>
+
+    <main id="quiz-container">
+        <!-- Questions JS se yahan dynamically aayenge -->
+        <h3 id="question-text">Loading question...</h3>
+        <div id="options-container">
+            <!-- Options button format mein aayenge -->
+        </div>
+        <button id="next-btn" style="display: none;">Next Question</button>
+    </main>
+
+    <div id="result-container" style="display: none;">
+        <h2>Test Submitted!</h2>
+        <p>Your Score: <span id="score"></span></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
